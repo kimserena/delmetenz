@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/common.css" rel="stylesheet" type="text/css">
+    <link href="css/sub.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Gothic+A1|Noto+Sans+KR&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b55569e153.js" crossorigin="anonymous"></script>
+</head>
+
+<body onload="javascript:scrollShrink();">
+    <header class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner">
+        <div class="navbar-header">
+            <a class="navbar-brand-desktop" href="index.html"><img src="img/logo.png" alt="logo" class="logo-image-desktop"></a>
+            <div class="navbar-right section--menu" id="Shylock">
+                <nav class="menu menu--shylock">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="about.html" class="menu__link">About</a></li>
+                        <li class="menu__item"><a href="works.html" class="menu__link">Works</a></li>
+                        <li class="menu__item menu__item--current"><a href="request.html" class="menu__link">Request</a></li>
+                        <li class="menu__item"><a href="blog.html" class="menu__link">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </header>
+    <section>
+       <div class="request">
+        <form action="/action_page.php" target="_blank">
+            <input type="text" placeholder="Name" required name="Name">
+            <input type="text" placeholder="Email" required name="Email">
+            <input type="text" placeholder="Subject" required name="Subject">
+            <input type="text" placeholder="Comment" required name="Comment">
+            <button type="submit">
+                SEND MESSAGE
+            </button>
+        </form>
+        </div>
+    </section>
+    <footer>
+        <a class="footer-brand-desktop" href="#defalt"><img src="img/logo.png" alt="logo" class="logo-image-footer"></a>
+        <div class="copyright">
+            <p><span><b>Tel</b> 041-534-5706</span> <span><b>Fax</b> 041-534-5705</span> <span><b>Email</b> oy7112@delmetenz.com</span></p>
+            <p><span>충남 아산시 배방읍 세출리 호서대학교 벤처창조융합관 201호(336-795)</span></p>
+            <p><span>© 델미텐츠 inc. 2020</span> </p>
+        </div>
+        <div class="sns"> <a href="https://www.facebook.com/delmetenz"><i class="fab fa-facebook-f"></i></a> <a href="https://twitter.com/dz_name83"><i class="fab fa-twitter"></i></a> </div>
+        <div class="top"><button class="m_tops" id="myBtn" title="Go to Top"><i class="fas fa-chevron-up"></i>
+                <p>TOP</p>
+            </button></div>
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+</body></html>

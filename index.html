@@ -2,70 +2,116 @@
 <html>
 
 <head>
+   <title>(주)델미텐츠</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
     <link href="css/common.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gothic+A1|Noto+Sans+KR&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b55569e153.js" crossorigin="anonymous"></script>
 </head>
 
 <body onload="javascript:scrollShrink();">
     <header class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner">
-        <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand-desktop" href="#defalt"><img src="img/logo.png" alt="logo" class="logo-image-desktop"></a>
-                <div class="navbar-right"> <a href="#">About</a> <a href="#">Works</a> <a href="#">Request</a> <a href="#">Careers</a> <a href="#">Blog</a> </div>
-                <div class="sns"> <i class="fab fa-facebook-f"></i> <i class="fab fa-twitter"></i> </div>
-            </div>
+        <div class="navbar-header">
+            <a class="navbar-brand-desktop" href="#defalt"><img src="img/logo.png" alt="logo" class="logo-image-desktop"></a>
+            <div class="navbar-right section--menu" id="Shylock">
+				<nav class="menu menu--shylock">
+					<ul class="menu__list">
+						<li class="menu__item"><a href="about.html" class="menu__link">About</a></li>
+						<li class="menu__item"><a href="works.html" class="menu__link">Works</a></li>
+						<li class="menu__item"><a href="request.html" class="menu__link">Request</a></li>
+						<li class="menu__item"><a href="blog.html" class="menu__link">Blog</a></li>
+					</ul>
+				</nav>
+			</div>
+        </div>
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
         </div>
     </header>
     <section>
         <div id="slideObject">
             <div class="main-visual">
-               <div class="container">
                 <div class="info-content">
                     <h1 class="main-title">
-                        <p class="text-border">delicious + mellow + content</p>
+                        <p class="text-border">delicious <span>+</span> mellow <span>+</span> content</p>
                         <p class="text-border">Delmetenz</p>
-                      </h1>
+                    </h1>
                     <div class="main-info">
-                        <p>델미텐츠는 “사람의 행복과 올바른 가치가 세상을 변화시킨다”를 모토로, “내 스스로에게 당당할 수 있는 콘텐츠 개발”을 위해 설립한 모바일소프트웨어 개발 및 서비스 벤처 기업입니다.</p>
+                        <p>(주)델미텐츠는 PC, MOBILE, GAME 등 다양한 디바이스 기반의 사업영역에서 활동하고 있는 벤처기업 입니다.</p>
+                        <div class="info-button"> <a href="about.html">자세히 보기</a> </div>
                     </div>
                 </div>
-                <div class="info-button"> <a href="#">자세히 보기</a> </div>
-            </div>
             </div>
         </div>
-        <div class="container">
-            <div class="main-content">
-                <div class="works">
-                    <p>Works</p>
-                    <div class="works1"> </div>
-                    <div class="works1"> </div>
-                    <div class="works1"> </div>
-                    <div class="works1"> </div>
-                    <div class="works1"> </div>
-                    <div class="works1"> </div>
-                    <div class="works1"> </div>
-                    <div class="works1"> </div>
+        <div class="main-content">
+            <div class="works">
+                <p class="works-title">Works</p>
+<!--                <p class="works-content">Application</p>-->
+                <div class="container">
+                            <img src="img/xtalkapp.png" alt="x-talk" class="image">
+                            <div class="overlay">
+                                <div class="text">X-talk App</div>
+                            </div>
+                        </div><!--
+                        --><div class="container">
+                            <img src="img/corningapp.png" alt="Corning Bus" class="image">
+                            <div class="overlay">
+                                <div class="text">Corning Bus App</div>
+                            </div>
+                        </div><!--
+                        --><div class="container">
+                            <img src="img/sdapp.png" alt="Smart Daily" class="image">
+                            <div class="overlay">
+                                <div class="text">Smart Daily App</div>
+                            </div>
+                        </div>
+<!--                <p class="works-content">Coffe Games</p>-->
+                   <div class="container">
+                    <img src="img/sdweb.png" alt="Smart Daily" class="image">
+                    <div class="overlay">
+                        <div class="text">Smart Daily Web</div>
+                    </div>
+                </div><!--
+                --><div class="container">
+                    <img src="img/yang.png" alt="양들의 침공" class="image">
+                    <div class="overlay">
+                        <div class="text">양들의 침공 Game</div>
+                    </div>
+                </div><!--
+                --><div class="container">
+                    <img src="img/sproing.png" alt="타일뿅 for kakao" class="image">
+                    <div class="overlay">
+                        <div class="text">타일뿅 for kakao Game</div>
+                    </div>
                 </div>
-                <!--
-                <div class="notice">
-                    공지사항
-                </div>
---></div>
+<!--                <p class="works-content">WebPage</p>-->
+            </div>
+            <div class="work-button"> <a href="works.html">More</a> </div>
+        </div>
+        <div class="contact">
+           <h2>Request</h2>
+            <p>
+                델미텐츠는 디지털 관련 분야의 컨설팅, 플랫폼 구축, 마케팅 커뮤니케이션 등의
+                Total Agent Service 를 지원합니다.
+                디지털 환경에서 새로운 비즈니스에 대한 지원이 필요하시면 연락 주시기 바랍니다.</p>
+            <div class="work-button"> <a href="request.html">Submit</a> </div>
         </div>
     </section>
     <footer>
-        <div class="container">
-            <div class="copyright">
-                <p><span>충남 아산시 배방읍 세출리 호서대학교 벤처창조융합관 201호(336-795)</span> <span>oy7112@delmetenz.com</span> <span>Tel 041-534-5706</span> <span>Fax 041-534-5705</span></p>
-                <p><span>(주)델미텐츠 ⓒ 2020 DELMETENZ co. Ltd All rights reserved.</span> <span>대표이사 오영진</span></p>
-            </div>
+        <a class="footer-brand-desktop" href="#defalt"><img src="img/logo.png" alt="logo" class="logo-image-footer"></a>
+        <div class="copyright">
+            <p><span><b>Tel</b> 041-534-5706</span> <span><b>Fax</b> 041-534-5705</span> <span><b>Email</b> oy7112@delmetenz.com</span></p>
+            <p><span>충남 아산시 배방읍 세출리 호서대학교 벤처창조융합관 201호(336-795)</span></p>
+            <p><span>© 델미텐츠 inc. 2020</span> </p>
         </div>
+        <div class="sns"> <a href="https://www.facebook.com/delmetenz"><i class="fab fa-facebook-f"></i></a> <a href="https://twitter.com/dz_name83"><i class="fab fa-twitter"></i></a> </div>
+        <div class="top"><button class="m_tops" id="myBtn" title="Go to Top"><i class="fas fa-chevron-up"></i>
+                <p>TOP</p>
+            </button></div>
     </footer>
+
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
-</body>
-
-</html>
+</body></html>
