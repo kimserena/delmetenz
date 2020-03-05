@@ -44,6 +44,7 @@ body {
     font-family: 'Gothic A1', 'Noto Sans KR', Arial, Helvetica, sans-serif;
     overFlow-x: hidden;
     overFlow-y: scroll;
+    letter-spacing: 1px;
 }
 
 .text-border {
