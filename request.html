@@ -9,7 +9,9 @@
     <script src="https://kit.fontawesome.com/b55569e153.js" crossorigin="anonymous"></script>
 </head>
 
-<body onload="javascript:scrollShrink();">
+<body>
+  <div class="gnb-wrap">
+   <div class="wrap">
     <header class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner">
         <div class="navbar-header">
             <a class="navbar-brand-desktop" href="index.html"><img src="img/logo.png" alt="logo" class="logo-image-desktop"></a>
@@ -24,30 +26,40 @@
                 </nav>
             </div>
         </div>
-        <div class="progress-container">
-            <div class="progress-bar" id="myBar"></div>
-        </div>
     </header>
+    </div>
+    </div>
     <section>
+      <div class="requestbg">
+               <p>Request</p>
+                <h2 class="text-border">문의</h2>
+                <p>oy7112@delmetenz.com</p>
+      </div>
+       <div class="wrap">
         <div class="sub-content">
             <p class="subs-title">Request</p>
+            <div class="form">
         <form action="https://formspree.io/smireyang@gmail.com" method="POST">
             <label>
-                <input type="text" name="name" placeholder="담당자 이름">
+                <input type="text" name="companyname" placeholder="회사 이름">
             </label>
             <label>
-                <input type="text" name="tel" placeholder="연락처">
+                <input type="text" name="name" placeholder="담당자 성함">
             </label>
             <label>
-                <input type="email" name="_ replyto" placeholder="이메일">
+                <input type="text" name="tel" placeholder="전화번호">
+            </label>
+            <label>
+                <input type="email" name="_replyto" placeholder="이메일">
             </ label>
             <label>
-                <textarea name="message" placeholder="상담 내용을 자유롭게 작성해 주세요."></textarea>
+                <textarea name="message" placeholder="프로젝트 관련 내용을 자유롭게 작성해 주세요."></textarea>
             </label> 
-            <input type="submit" value="SEND MESSAGE"> 
+            <div class="submit-center"><input type="submit" value="Submit"></div> 
         </form>
+        </div>
     </div>
-
+</div>
 
     </section>
     <footer>
