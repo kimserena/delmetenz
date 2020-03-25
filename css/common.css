@@ -398,10 +398,9 @@ footer {
 
 .footer-brand-desktop {
     display: inline-block;
-    width: 10%;
+    width: 15%;
     vertical-align: top;
     margin-top: 30px;
-    margin-left: 10%;
 }
 
 .logo-image-footer {
@@ -425,7 +424,7 @@ footer {
     float: right;
     vertical-align: top;
     margin-top: 40px;
-    margin-right: 20%;
+    margin-right: 0%;
 }
 
 .sns a i {
